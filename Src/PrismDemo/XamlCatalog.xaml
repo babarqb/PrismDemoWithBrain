@@ -1,0 +1,12 @@
+﻿<modularity:ModuleCatalog xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:modularity="clr-namespace:Prism.Modularity;assembly=Prism.Wpf">
+    <modularity:ModuleInfo Ref="file://PrismModuleA" 
+                           ModuleName="PrismModuleA" 
+                           ModuleType="PrismModuleA.PrismModuleAModule, PrismModuleA, Version=1.0.0.0" 
+                           InitializationMode="WhenAvailable"/>
+    <modularity:ModuleInfo Ref="file://PrismModuleB" 
+                           ModuleName="PrismModuleB" 
+                           ModuleType="PrismModuleB.PrismModuleBModule, PrismModuleB, Version=1.0.0.0" 
+                           InitializationMode="WhenAvailable"/>
+</modularity:ModuleCatalog>
